@@ -2,7 +2,7 @@ public class Solution {
     public bool IsPalindrome(int x) {
         if(x < 0) return false;
         else if (x%10 == 0 && x !=0) return false;
-        else if(x==0) return true;
+        //else if(x==0) return true;
         else{
             int revNum = 0;
             int num = x;
