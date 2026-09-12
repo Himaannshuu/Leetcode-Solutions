@@ -1,30 +1,21 @@
 public class Solution {
-
-    public static string modifyString(string s){
-        s = s.ToLower();
-        string newStr = "";
-        foreach(char c in s){
-            if((c >= 'a' && c <= 'z') || (c>='0' && c<='9')){
-                newStr+=c;
-            }
-        }
-        return newStr;
-    }
-
-    public static bool checker(string s , int i){
-        if(i >= s.Length) return true;
-
-        if(s[i] != s[s.Length - i -1]) return false;
-
-        return checker(s , i+1);
-
-    }
-
     public bool IsPalindrome(string s) {
-        
-        string sNew = modifyString(s);
+        s = s.ToLower();
+        int l = 0;
+        int r = s.Length-1;
 
-        return checker(sNew , 0);
+        while(l<r){
 
+            while(l<r && !char.IsLetterOrDigit(s[l])){
+                l++;
+            }
+            while(l<r && !char.IsLetterOrDigit(s[r])){
+                r--;
+            }
+            if(s[l] != s[r]) return false;
+            l++;
+            r--;
+        }
+        return true;
     }
 }
