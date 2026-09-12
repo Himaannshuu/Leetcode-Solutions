@@ -28,4 +28,12 @@
 |  |
 | ------- |
 | [1952-three-divisors](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/1952-three-divisors) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
