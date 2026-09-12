@@ -1,6 +1,5 @@
 public class Solution {
     public bool IsPalindrome(string s) {
-        s = s.ToLower();
         int l = 0;
         int r = s.Length-1;
 
@@ -9,10 +8,12 @@ public class Solution {
             while(l<r && !char.IsLetterOrDigit(s[l])){
                 l++;
             }
+
             while(l<r && !char.IsLetterOrDigit(s[r])){
                 r--;
             }
-            if(s[l] != s[r]) return false;
+
+            if(char.ToLower(s[l]) != char.ToLower(s[r])) return false;
             l++;
             r--;
         }
