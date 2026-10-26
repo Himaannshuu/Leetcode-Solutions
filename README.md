@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0027-remove-element) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 ## Math
 |  |
@@ -38,6 +39,7 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0027-remove-element) |
 | [0125-valid-palindrome](https://github.com/Himaannshuu/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 ## String
 |  |
